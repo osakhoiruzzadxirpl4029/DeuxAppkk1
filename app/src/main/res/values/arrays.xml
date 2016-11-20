@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (C) 2016 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<resources>
+    <string-array name="places">
+        <item>Coban Rondo</item>
+        <item>Ancol</item>
+        <item>Pantai Selatan</item>
+        <item>Bendungan Karangkates</item>
+        <item>Karimun Jawa</item>
+        <item>Gunung Bromo</item>
+    </string-array>
+    <string-array name="sumatera_places">
+        <item>Istana Maimun</item>
+        <item>Air Terjun Sipiso - piso</item>
+        <item>Masjid Raya Medan</item>
+        <item>Danau Toba</item>
+        <item>Gunung Sibayak</item>
+        <item>Bukit Lawang</item>
+    </string-array>
+    <string-array name="place_desc">
+        <item>Coban Rondo adalah air terjun, berlokasi di Malang, Jawa Timur
+        </item>
+        <item>Ancol adalah salah satu pantai berlokasi di Jakarta</item>
+        <item>Pantai Selatan merupakan pantai keramat berlokasi di Jawa Tengah</item>
+        <item>Bendungan Karangkates, salah satu bendungan terbaik di Indonesia. Terletak di Malang, Jawa Timur</item>
+        <item>Karimun Jawa terletak di Jawa Tengah</item>
+        <item>Gunung Bromo adalah gunung yang terletak di Pasuruan, Jawa Timur</item>
+    </string-array>
+    <string-array name="sumatera_desc">
+        <item>Istana Maimun terletak di Kecamatan Medan Maimun, Medan.
+        </item>
+        <item>Air terjun ini terletak di Desa Tongging, Sumatera Utara</item>
+        <item>Masjid Raya Medan terletak di Medan, Sumatera Utara</item>
+        <item>Danau Toba terletak di provinsi Sumatera Utara</item>
+        <item>Gunung Sibayak terletak di provinsi Sumatera Utara</item>
+        <item>Terletak di kota Medan, termasuk dalam Taman Nasional Gunung Leuser</item>
+    </string-array>
+    <string-array name="place_details">
+        <item>
+        </item>
+        <item>
+        </item>
+        <item>
+        </item>
+        <item>
+        </item>
+        <item>
+        </item>
+        <item>
+        </item>
+    </string-array>
+    <string-array name="sumatera_details">
+        <item>
+        </item>
+        <item>
+        </item>
+        <item>
+        </item>
+        <item>
+        </item>
+        <item>
+        </item>
+        <item>
+        </item>
+    </string-array>
+    <string-array name="place_locations">
+        <item>Malang, Jawa Timur</item>
+        <item>Jakarta Pusat, DKI Jakarta</item>
+        <item>Jawa Tengah</item>
+        <item>Malang, Jawa Timur</item>
+        <item>Jawa Tengah</item>
+        <item>Pasuruan, Jawa Timur</item>
+    </string-array>
+    <string-array name="sumatera_locations">
+        <item>8 Rue Scribe, 75009 Paris, France</item>
+        <item>Piazza del Capitolo - 50122 Florence</item>
+        <item>New York City</item>
+        <item>2-3-1 Asakusa, Taitō-ku, Tokyo, Japan</item>
+        <item>At Meydanı No:7, 34122 Fatih/İstanbul, Turkey</item>
+        <item>Cape Town, South Africa</item>
+    </string-array>
+    <array name="places_picture">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+    </array>
+    <array name="sumatera_pictures">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+    </array>
+</resources>
