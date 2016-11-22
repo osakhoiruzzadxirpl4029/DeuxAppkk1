@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tempat2">
+        <item>Danau Sentarum</item>
+        <item>Tanjung Puting</item>
+        <item>Jembatan Tajuk</item>
+
+    </string-array>
+
+    <string-array name="tempat2_desc">
+        <item>Ada keunikan yang istimewa yang bisa kamu temukan saat mengunjungi Danau Sentarum. Danau yang terletak di Kabupaten Kapuas Hulu Kalimantan Barat</item>
+        <item>Gara-gara pembabatan hutan keberlangsungan hidup orangutan di Kalimantan makin terancam. Untungnya ada kawasan konservasi yang menjadi rumah bagi mereka di Taman Nasional Tanjung Puting </item>
+        <item>Menjelajah Kalimantan belum lengkap kalau belum menjamahi hutan hujan tropisnya. Nah di Kabupaten Kutai Kartanegara ada kawasan ekowisata berupa hutan hujan tropis yang masih alami yaitu Bukit Bangkirai</item>
+
+    </string-array>
+    <string-array name="tempat2_details">
+        <item>
+            Ya Danau Sentarum memang danau musiman. Diapit pegunungan danau ini menjadi sumber utama bagi aliran air sungai Kapuas. Karena perannya sebagai lebak lebung raksasa sangat vital bagi kelangsungan hidup hewan liar dan manusia tempat ini diresmikan sebagai taman nasional yang dilindungi.</item>
+        <item>
+            Bersama ranger memasuki hutan untuk berjumpa dengan orangutan adalah pengalaman yang dinanti-nanti. Kamu bisa melihat orangutan yang luar biasa itu nongkrong sambil melahap makanan yang disediakan petugas jagawana. Beberapa juga ada yang dilatih untuk lebih bersahabat dengan manusia lho. Jadi jangan kaget kalau tiba-tiba ada anak orangutan yang menghampirimu.</item>
+        <item>
+            Jika kamu punya cukup nyali meniti Jembatan Tajuk bakal menjadi pengalaman yang mendebarkan. Jembatan ini berupa canopy bridge yang terletak di ketinggian dan menghubungkan pohon bangkirai yang satu dengan yang lain.
+        </item>
+
+    </string-array>
+
+    <string-array name="tempat2_locations">
+        <item>Nanga Leboyan, Sentarum, Danau Sentarum, Kabupaten Kapuas Hulu, Kalimantan Barat 78765, Indonesia</item>
+        <item>Kalimantan Selatan</item>
+        <item>Cikaniki Research Centre Kampung Citalahab</item>
+
+    </string-array>
+    <array name="tempat2_picture">
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+
+    </array>
+</resources>

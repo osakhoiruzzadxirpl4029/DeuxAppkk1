@@ -14,8 +14,8 @@ import android.view.MenuItem;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.adapter.HotelAdapter;
-import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Hotel;
+import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.adapter.SulawesiAdapter;
+import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Sulawesi;
 
 /**
  * Created by AS X550Z on 22/11/2016.
@@ -23,19 +23,19 @@ import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Hotel;
  */
 
 public class SulawesiLayout extends AppCompatActivity {
-    ArrayList<Hotel> mList = new ArrayList<>();
-    HotelAdapter mAdapter;
+    ArrayList<Sulawesi> mList = new ArrayList<>();
+    SulawesiAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start);
+        setContentView(R.layout.activity_kalimantan);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView2);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new HotelAdapter(mList);
+        mAdapter = new SulawesiAdapter(mList);
         recyclerView.setAdapter(mAdapter);
 
         fillData();
@@ -44,9 +44,9 @@ public class SulawesiLayout extends AppCompatActivity {
 
     private void fillData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.sulawesi_places);
-        String[] arDeskripsi = resources.getStringArray(R.array.sulawesi_desc);
-        TypedArray a = resources.obtainTypedArray(R.array.sulawesi_pictures);
+        String[] arJudul = resources.getStringArray(R.array.tempat2);
+        String[] arDeskripsi = resources.getStringArray(R.array.tempat2_desc);
+        TypedArray a = resources.obtainTypedArray(R.array.tempat2_picture);
         Drawable[] arFoto = new Drawable[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             BitmapDrawable bd = (BitmapDrawable) a.getDrawable(i);
@@ -56,7 +56,7 @@ public class SulawesiLayout extends AppCompatActivity {
         }
         a.recycle();
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Hotel(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mList.add(new Sulawesi(arJudul[i], arDeskripsi[i], arFoto[i]));
         }
         mAdapter.notifyDataSetChanged();
     }
