@@ -20,6 +20,7 @@
             android:parentActivityName=".MainActivity" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".ButtonActivity" />
+        <activity android:name=".SumateraActivity" />
     </application>
 
 </manifest>

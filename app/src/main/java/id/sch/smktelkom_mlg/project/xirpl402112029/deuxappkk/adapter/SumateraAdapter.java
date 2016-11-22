@@ -10,38 +10,38 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.R;
-import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Hotel;
+import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Sumatera;
 
 /**
- * Created by SUPER USER on 19/11/2016.
+ * Created by SUPER USER on 22/11/2016.
  */
 
-public class HotelAdapter extends RecyclerView.Adapter<HotelAdapter.ViewHolder> {
-    ArrayList<Hotel> hotelList;
-    public HotelAdapter(ArrayList<Hotel> hotelList) {
-        this.hotelList = hotelList;
+public class SumateraAdapter extends RecyclerView.Adapter<SumateraAdapter.ViewHolder> {
+
+    ArrayList<Sumatera> sumateraList;
+
+    public SumateraAdapter(ArrayList<Sumatera> sumateraList) {
+
+        this.sumateraList = sumateraList;
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list, parent, false);
-        ViewHolder vh = new ViewHolder(v);
-
+        View v = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_list3, parent, false);
+        SumateraAdapter.ViewHolder vh = new SumateraAdapter.ViewHolder(v);
         return vh;
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        Hotel hotel = hotelList.get(position);
-        holder.tvJudul.setText(hotel.judul);
-        holder.tvDeskripsi.setText(hotel.deskripsi);
-        holder.ivFoto.setImageDrawable(hotel.foto);
+        Sumatera sumatera = sumateraList.get(position);
+        holder.tvJudul.setText(sumatera.judul);
+        holder.tvDeskripsi.setText(sumatera.deskripsi);
+        holder.ivFoto.setImageDrawable(sumatera.foto);
     }
 
     @Override
     public int getItemCount() {
-        if (hotelList != null)
-            return hotelList.size();
         return 0;
     }
 

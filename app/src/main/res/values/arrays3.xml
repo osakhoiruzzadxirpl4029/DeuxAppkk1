@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tempat1">
+        <item>Istana Maimun</item>
+        <item>Masjid Raya Medan</item>
+        <item>Danau Toba</item>
+
+    </string-array>
+
+    <string-array name="tempat1_desc">
+        <item>Istana Maimun yang saat ini sudah menjadi ikon kota Medan, Sumatera Utara adalah sebuah peninggalan Kerajaan Deli</item>
+        <item>Masjid Raya Medan yang berlokasi di Medan, Sumatera Utara mulai dibangun pada tahun 1906 dengan gaya campuran antara Timur Tengah, Spanyol, dan India.</item>
+        <item>Danau Toba adalah danau yang paling terkenal di Indonesia karena ukurannya yang besar dan keunikan yang berupa adanya sebuah pulau di tengah Danau Toba. </item>
+
+    </string-array>
+    <string-array name="tempat1_details">
+        <item>
+            Istana seluas lebih dari 2,700 meter ini memiliki lebih dari 30 buah ruangan dengan desain interior yang merupakan perpaduan budaya Melayu, Islam, Itali, Spanyol, dan Italia. Selain berfoto-foto di bangunan bersejarah ini, pengunjung juga dapat melihat-lihat koleksi perabotan Belanda kuno, koleksi foto-foto kelaurga sultan, dan koleksi macam-macam senjata. Berlokasi di Jalan Brigadir Jenderal Katamso, Kecamatan Medan Maimun, Medan, Istana Maimun sudah menjadi salah satu tempat wisata di Sumatera Utara yang selalu dikunjungi oleh orang yang datang ke kota Medan. Harga tiket masuk Istana Maimun adalah 5,000 Rupiah per orang.</item>
+        <item>
+            Masjid Raya Medan yang berlokasi di Medan, Sumatera Utara mulai dibangun pada tahun 1906 dengan gaya campuran antara Timur Tengah, Spanyol, dan India. Beralamat di Jalan Sisingamangaraja, Masjid Raya Medan sangat mudah ditemui oleh wisatawan yang tertarik dengan keanggunan Masjid Raya Medan.</item>
+        <item>
+            Danau Toba adalah danau yang paling terkenal di Indonesia karena ukurannya yang besar dan keunikan yang berupa adanya sebuah pulau di tengah Danau Toba. Dengan panjang sekitar 100 KM dan lebar sektiar 30 KM, Danau Toba adalah danau vulkanik yang terbesar di Asia Tenggara. Danau Toba adalah tempat wisata di Sumatera Utara yang paling terkenal, sehingga tidak perlu kuatir apabila anda ingin menginap di Danau Toba karena di sepanjang tepian Danau Toba banyak terdapat penginapan.
+        </item>
+
+    </string-array>
+
+    <string-array name="tempat1_locations">
+        <item>Jalan Brigadir Jenderal Katamso, Kecamatan Medan Maimun, Medan</item>
+        <item>Masjid Raya Medan yang berlokasi di Medan, Sumatera Utara</item>
+        <item>Toba, Sumatera Utara</item>
+
+    </string-array>
+    <array name="tempat1_picture">
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+
+    </array>
+</resources>

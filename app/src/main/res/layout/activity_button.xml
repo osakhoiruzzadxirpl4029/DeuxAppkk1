@@ -2,57 +2,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_button"
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EA646A"
+    android:background="#9E26"
     android:orientation="vertical"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
     tools:context="id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.ButtonActivity">
 
-    <Button
-        android:id="@+id/buttonJawa"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:shadowColor="#212121"
-        android:text="Jawa" />
 
     <Button
-        android:id="@+id/buttonSumatera"
+        android:id="@+id/button2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:shadowColor="#212121"
-        android:text="Sumatera" />
-
+        android:layout_height="184dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/a"
+        android:padding="8dp"
+        android:text="Jawa"
+        android:textColor="#FFFFFF" />
     <Button
-        android:id="@+id/buttonKalimantan"
+        android:id="@+id/button3"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:shadowColor="#212121"
-        android:text="Kalimantan" />
-
+        android:layout_height="184dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sumatera"
+        android:padding="8dp"
+        android:text="Sumatera"
+        android:textColor="#FFFFFF" />
     <Button
-        android:id="@+id/buttonBali"
+        android:id="@+id/button4"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:shadowColor="#212121"
-        android:text="Bali" />
-
-    <Button
-        android:id="@+id/buttonPapua"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:shadowColor="#212121"
-        android:text="Papua" />
-
-    <Button
-        android:id="@+id/buttonSulawesi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:shadowColor="#212121"
-        android:text="Sulawesi" />
-
-
+        android:layout_height="184dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/kalimantan"
+        android:padding="8dp"
+        android:text="Kalimantan"
+        android:textColor="#FFFFFF" />
 </LinearLayout>

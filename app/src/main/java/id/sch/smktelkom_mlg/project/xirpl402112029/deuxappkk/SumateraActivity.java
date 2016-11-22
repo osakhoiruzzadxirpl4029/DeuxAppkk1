@@ -10,39 +10,34 @@ import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.MenuItem;
 
 import java.util.ArrayList;
 
-import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.adapter.HotelAdapter;
-import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Hotel;
+import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.adapter.SumateraAdapter;
+import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Sumatera;
 
-
-public class StartActivity extends AppCompatActivity {
-    ArrayList<Hotel> mList = new ArrayList<>();
-    HotelAdapter mAdapter;
+public class SumateraActivity extends AppCompatActivity {
+    ArrayList<Sumatera> mSumatera = new ArrayList<>();
+    SumateraAdapter mSumada;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_start);
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
-        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
+        setContentView(R.layout.activity_sumatera);
+        RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView3);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new HotelAdapter(mList);
-        recyclerView.setAdapter(mAdapter);
+        mSumada = new SumateraAdapter(mSumatera);
+        recyclerView.setAdapter(mSumada);
 
         fillData();
-
     }
 
     private void fillData() {
         Resources resources = getResources();
-        String[] arJudul = resources.getStringArray(R.array.places);
-        String[] arDeskripsi = resources.getStringArray(R.array.place_desc);
-        TypedArray a = resources.obtainTypedArray(R.array.places_picture);
+        String[] arJudul = resources.getStringArray(R.array.tempat1);
+        String[] arDeskripsi = resources.getStringArray(R.array.tempat1_desc);
+        TypedArray a = resources.obtainTypedArray(R.array.tempat1_details);
         Drawable[] arFoto = new Drawable[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             BitmapDrawable bd = (BitmapDrawable) a.getDrawable(i);
@@ -52,17 +47,8 @@ public class StartActivity extends AppCompatActivity {
         }
         a.recycle();
         for (int i = 0; i < arJudul.length; i++) {
-            mList.add(new Hotel(arJudul[i], arDeskripsi[i], arFoto[i]));
+            mSumatera.add(new Sumatera(arJudul[i], arDeskripsi[i], arFoto[i]));
         }
-        mAdapter.notifyDataSetChanged();
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            onBackPressed();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+        mSumada.notifyDataSetChanged();
     }
 }
