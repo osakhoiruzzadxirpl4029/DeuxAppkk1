@@ -80,6 +80,9 @@
         <item>@drawable/e</item>
         <item>@drawable/f</item>
     </array>
+    <!--
+     Array tambahan tab sulawesi
+    -->
     <string-array name="sulawesi_places">
         <item>Pantai Losari</item>
         <item>Taman Nasional Bantimurung</item>
