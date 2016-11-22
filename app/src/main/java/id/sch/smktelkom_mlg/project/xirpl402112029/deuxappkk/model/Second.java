@@ -4,6 +4,7 @@ import android.graphics.drawable.Drawable;
 
 /**
  * Created by AS X550Z on 22/11/2016.
+ * Tambahan class untuk sulawesi
  */
 
 public class Second {
