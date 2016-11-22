@@ -24,6 +24,22 @@ public class ButtonActivity extends AppCompatActivity {
                 startActivity(new Intent(ButtonActivity.this, SumateraActivity.class));
             }
         });
+        findViewById(R.id.buttonSumatera).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SumateraLayout.class);
+                startActivity(intent);
+            }
+        });
+        /**
+         * Tambahan intent button sulawesi*/
+        findViewById(R.id.buttonSulawesi).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), SulawesiLayout.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
