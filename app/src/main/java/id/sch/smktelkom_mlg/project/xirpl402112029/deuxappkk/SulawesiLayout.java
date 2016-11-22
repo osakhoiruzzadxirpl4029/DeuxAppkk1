@@ -19,6 +19,7 @@ import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Hotel;
 
 /**
  * Created by AS X550Z on 22/11/2016.
+ * Class button Sulawesi
  */
 
 public class SulawesiLayout extends AppCompatActivity {
