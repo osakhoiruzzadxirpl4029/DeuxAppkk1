@@ -37,7 +37,7 @@ public class SumateraActivity extends AppCompatActivity {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.tempat1);
         String[] arDeskripsi = resources.getStringArray(R.array.tempat1_desc);
-        TypedArray a = resources.obtainTypedArray(R.array.tempat1_details);
+        TypedArray a = resources.obtainTypedArray(R.array.tempat1_picture);
         Drawable[] arFoto = new Drawable[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             BitmapDrawable bd = (BitmapDrawable) a.getDrawable(i);

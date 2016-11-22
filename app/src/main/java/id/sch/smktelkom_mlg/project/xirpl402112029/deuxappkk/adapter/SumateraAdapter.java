@@ -21,7 +21,6 @@ public class SumateraAdapter extends RecyclerView.Adapter<SumateraAdapter.ViewHo
     ArrayList<Sumatera> sumateraList;
 
     public SumateraAdapter(ArrayList<Sumatera> sumateraList) {
-
         this.sumateraList = sumateraList;
     }
 
@@ -42,6 +41,8 @@ public class SumateraAdapter extends RecyclerView.Adapter<SumateraAdapter.ViewHo
 
     @Override
     public int getItemCount() {
+        if (sumateraList != null)
+            return sumateraList.size();
         return 0;
     }
 
@@ -52,8 +53,8 @@ public class SumateraAdapter extends RecyclerView.Adapter<SumateraAdapter.ViewHo
 
         public ViewHolder(View itemView) {
             super(itemView);
-            ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
-            tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
+            ivFoto = (ImageView) itemView.findViewById(R.id.imgView);
+            tvJudul = (TextView) itemView.findViewById(R.id.textJudul);
             tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
         }
     }

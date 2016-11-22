@@ -1,44 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/activity_button"
-
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#9E26"
-    android:orientation="vertical"
-    android:weightSum="1"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.ButtonActivity">
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_button"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9E26"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:context="id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.ButtonActivity">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/a"
+            android:padding="8dp"
+            android:text="Jawa"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/sumatera"
+            android:padding="8dp"
+            android:text="Sumatera"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="184dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/kalimantan"
+            android:padding="8dp"
+            android:text="Kalimantan"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
 
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="184dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/a"
-        android:padding="8dp"
-        android:text="Jawa"
-        android:textColor="#FFFFFF" />
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="184dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/sumatera"
-        android:padding="8dp"
-        android:text="Sumatera"
-        android:textColor="#FFFFFF" />
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="match_parent"
-        android:layout_height="184dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/kalimantan"
-        android:padding="8dp"
-        android:text="Kalimantan"
-        android:textColor="#FFFFFF" />
-</LinearLayout>
+</ScrollView>
