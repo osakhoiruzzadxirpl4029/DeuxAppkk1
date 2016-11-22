@@ -48,34 +48,6 @@
         <item>Gunung Sibayak terletak di provinsi Sumatera Utara</item>
         <item>Terletak di kota Medan, termasuk dalam Taman Nasional Gunung Leuser</item>
     </string-array>
-    <string-array name="place_details">
-        <item>
-        </item>
-        <item>
-        </item>
-        <item>
-        </item>
-        <item>
-        </item>
-        <item>
-        </item>
-        <item>
-        </item>
-    </string-array>
-    <string-array name="sumatera_details">
-        <item>
-        </item>
-        <item>
-        </item>
-        <item>
-        </item>
-        <item>
-        </item>
-        <item>
-        </item>
-        <item>
-        </item>
-    </string-array>
     <string-array name="place_locations">
         <item>Malang, Jawa Timur</item>
         <item>Jakarta Pusat, DKI Jakarta</item>
@@ -107,5 +79,35 @@
         <item>@drawable/d</item>
         <item>@drawable/e</item>
         <item>@drawable/f</item>
+    </array>
+    <string-array name="sulawesi_places">
+        <item>Pantai Losari</item>
+        <item>Taman Nasional Bantimurung</item>
+        <item>Malino</item>
+        <item>Tanjung Bira</item>
+        <item>Pulau Bulupoloe</item>
+        <item>Pulau Kapoposang</item>
+    </string-array>
+    <string-array name="sulawesi_desc">
+        <item>Pantai ini sudah terkenal di berbagai kalangan sebagai salah satu ikon kota Makassar
+        yang indah dan wajib untuk dikunjungi ketika pergi ke Makassar.</item>
+        <item>Taman Nasional yang terletak di kabupaten Maros atau kurang lebih 45 km dari pusat
+        kota Makassar ini sangat terkenal sebagai kerajaan kupu-kupu karena ada sekitar 250 jenis
+        kupu-kupu yang ada di sana.</item>
+        <item>Tempat wisata di Sulawesi Selatan yang memberikan pemandangan alam pegunungan dan
+        dataran tinggi yang sangat sejuk dan memanjakan mata</item>
+        <item>Pantai pasir putih yang halus dan bersih dengan air laut yang jernih dan sangat
+        terkenal di Sulawesi Selatan</item>
+        <item>Daya tarik dari pulau Bulupoloe adalah keindahan pegunungan serta keasrian baharinya</item>
+        <item>Merupakan gugusan kepulauan Spermonde dimana pulau ini memiliki gugusan terumbu karang
+        yang sangat indah dengan menyimpan beranekaragam biota laut yang menarik</item>
+    </string-array>
+    <array name="sulawesi_pictures">
+        <item>@drawable/lsr</item>
+        <item>@drawable/bntmrg</item>
+        <item>@drawable/mln</item>
+        <item>@drawable/bira</item>
+        <item>@drawable/blpl</item>
+        <item>@drawable/kppsg</item>
     </array>
 </resources>
