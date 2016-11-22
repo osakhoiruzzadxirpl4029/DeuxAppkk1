@@ -30,7 +30,7 @@ Sebuah aplikasi untuk mengetahui tempat-tempat wisata yang ada di indonesia
 
 #### Maulana Fadia Hadi
 * Kelas : XI RPL 4
-* No Urut : 20
+* No Urut : 20 
 * NIS : 4764/1483.070
 * User Github : [@MauLanaFH12](https://github.com/MauLanaFH12)
 
