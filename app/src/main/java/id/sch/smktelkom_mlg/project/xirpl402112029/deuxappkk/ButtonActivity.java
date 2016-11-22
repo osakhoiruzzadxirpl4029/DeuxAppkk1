@@ -25,6 +25,8 @@ public class ButtonActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        /**
+         * Tambahan intent button sulawesi*/
         findViewById(R.id.buttonSulawesi).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
