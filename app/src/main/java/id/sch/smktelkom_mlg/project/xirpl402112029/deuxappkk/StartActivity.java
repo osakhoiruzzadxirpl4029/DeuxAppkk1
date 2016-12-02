@@ -27,7 +27,7 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
+        setTitle("Jawa");
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
@@ -46,7 +46,8 @@ public class StartActivity extends AppCompatActivity {
         Drawable[] arFoto = new Drawable[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
             BitmapDrawable bd = (BitmapDrawable) a.getDrawable(i);
-            RoundedBitmapDrawable rbd = RoundedBitmapDrawableFactory.create(getResources(), bd.getBitmap());
+            RoundedBitmapDrawable rbd = RoundedBitmapDrawableFactory.create(getResources(),
+                    bd.getBitmap());
             rbd.setCircular(true);
             arFoto[i] = rbd;
         }

@@ -91,4 +91,22 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hai! Selamat datang di aplikasi kami!</string>
+    <string name="slide_1_desc">Aplikasi untuk memudahkan anda mengenali Indonesia!</string>
+
+    <string name="slide_2_title">Indahnya Indonesia</string>
+    <string name="slide_2_desc">Begitu banyaknya pulau ada di negara tercinta ini!</string>
+
+    <string name="slide_3_title">Best Beaches in the world!</string>
+    <string name="slide_3_desc">Nikmati keindahan Indonesia dalam aplikasi ini!</string>
+
+    <string name="slide_4_title">Easy GO!</string>
+    <string name="slide_4_desc">Mari kita mulai!</string>
+
+
 </resources>

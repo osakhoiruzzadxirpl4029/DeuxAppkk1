@@ -9,7 +9,7 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#9E26"
+        android:background="#Ef66Ed"
         android:orientation="vertical"
         android:weightSum="1"
         tools:context="id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.ButtonActivity">

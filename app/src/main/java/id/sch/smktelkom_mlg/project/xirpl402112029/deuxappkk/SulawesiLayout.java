@@ -31,7 +31,7 @@ public class SulawesiLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kalimantan);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
+        setTitle("Kalimantan");
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView2);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);

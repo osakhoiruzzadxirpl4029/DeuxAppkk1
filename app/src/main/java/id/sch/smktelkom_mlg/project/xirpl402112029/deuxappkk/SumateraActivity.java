@@ -10,6 +10,7 @@ import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.MenuItem;
 
 import java.util.ArrayList;
 
@@ -28,6 +29,7 @@ public class SumateraActivity extends AppCompatActivity {
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
         mSumada = new SumateraAdapter(mSumatera);
+        setTitle("Sumatera");
         recyclerView.setAdapter(mSumada);
 
         fillData();
@@ -50,5 +52,14 @@ public class SumateraActivity extends AppCompatActivity {
             mSumatera.add(new Sumatera(arJudul[i], arDeskripsi[i], arFoto[i]));
         }
         mSumada.notifyDataSetChanged();
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }
