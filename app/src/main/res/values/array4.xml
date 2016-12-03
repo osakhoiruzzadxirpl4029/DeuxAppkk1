@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="papua">
+        <item>Taman Nasional Teluk Cendrawasih</item>
+        <item>Raja Ampat</item>
+        <item>Danau Sentani</item>
+
+    </string-array>
+
+    <string-array name="papua_desc">
+        <item>Taman Nasional Teluk Cendrawasih merupakan salah satu taman nasional terbaik di Papua
+        </item>
+        <item>Raja Ampat merupakan lokasi wisata terbaik yang berada di Papua.</item>
+        <item>Danau dengan luas 9.360 hektar ini merupakan danau terbesar di Papua.</item>
+
+    </string-array>
+    <string-array name="papua_details">
+        <item>
+            Taman nasional dengan luas 1.453.500 hektar ini hampir 90% berupa perairan. Tak mengherankan jika Taman Nasioanal Teluk Cenderawasih menjadi kawasan konservasi laut terbesar dan terluas di Indonesia. Di sini terdapat 196 jenis moluska dan 209 jenis ikan yang bisa Anda saksikan di alam bawah lautnya. Tak jarang kura-kura penyu hiu dan lumba-lumba juga ikut menemani Anda saat menyelam.</item>
+        <item>
+            Siapa tak mengenal Raja Ampat? Salah satu tempat wisata di Papua ini keindahannya menarik perhatian wisatawan domestik dan mancanegara. Kawasan Raja Ampat ini terdiri dari empat pulau besar yaitu Waigeo Misool Salawati Batanta dan pulau-pulau kecil di sekitarnya.</item>
+        <item>
+            Terletak sekitar 50 km dari pusat kota Jayapura Danau Sentani menawarkan keindahan luar biasa. Sedikitnya ada 21 pulau yang menghiasi danau dengan ketinggian 75 meter di atas permukaan laut ini. Ada banyak kegiatan yang bisa Anda lakukan di sini mulai dari berenang memancing menyantap kuliner di sekitar danau sampai menyewa perahu untuk berkeliling danau. Selain itu ada 24 desa di sekitar tempat wisata ini yang bisa Anda kunjungi dan berinteraksi langsung dengan warganya. Pemandangan deretan rumah panggung dengan jaring ikan menjadi hal yang wajar Anda saksikan di sini.
+        </item>
+
+    </string-array>
+
+    <string-array name="papua_locations">
+        <item>Teluk Cendrawasih Provinsi Papua Barat</item>
+        <item>Waisai Provinsi Papua Barat</item>
+        <item>Sentani Timur Jayapura Papua</item>
+
+    </string-array>
+    <array name="papua_picture">
+        <item>@drawable/j</item>
+        <item>@drawable/k</item>
+        <item>@drawable/l</item>
+
+    </array>
+</resources>
