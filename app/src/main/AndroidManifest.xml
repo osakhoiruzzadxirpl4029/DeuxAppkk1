@@ -17,8 +17,8 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/title_activity_welcome"></activity>
-
+            android:label="@string/title_activity_welcome"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".StartActivity"
             android:parentActivityName=".MainActivity" />
@@ -26,7 +26,10 @@
         <activity android:name=".ButtonActivity" />
         <activity android:name=".SumateraActivity" />
         <activity android:name=".SulawesiLayout" />
-
+        <activity
+            android:name=".DetaileActivity"
+            android:label="@string/title_activity_detaile"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
