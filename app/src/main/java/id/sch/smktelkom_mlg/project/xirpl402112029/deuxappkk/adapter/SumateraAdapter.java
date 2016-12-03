@@ -1,5 +1,7 @@
 package id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.adapter;
 
+import android.content.Context;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,9 +21,11 @@ import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Sumatera;
 public class SumateraAdapter extends RecyclerView.Adapter<SumateraAdapter.ViewHolder> {
 
     ArrayList<Sumatera> sumateraList;
+    ISumateraAdapter mISumateraAdapter;
 
-    public SumateraAdapter(ArrayList<Sumatera> sumateraList) {
+    public SumateraAdapter(Context context, ArrayList<Sumatera> sumateraList) {
         this.sumateraList = sumateraList;
+        mISumateraAdapter = (ISumateraAdapter) context;
     }
 
     @Override
@@ -36,7 +40,7 @@ public class SumateraAdapter extends RecyclerView.Adapter<SumateraAdapter.ViewHo
         Sumatera sumatera = sumateraList.get(position);
         holder.tvJudul.setText(sumatera.judul);
         holder.tvDeskripsi.setText(sumatera.deskripsi);
-        holder.ivFoto.setImageDrawable(sumatera.foto);
+        holder.ivFoto.setImageURI(Uri.parse(sumatera.foto));
     }
 
     @Override
@@ -44,6 +48,10 @@ public class SumateraAdapter extends RecyclerView.Adapter<SumateraAdapter.ViewHo
         if (sumateraList != null)
             return sumateraList.size();
         return 0;
+    }
+
+    public interface ISumateraAdapter {
+        void doClick(int pos);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -56,6 +64,12 @@ public class SumateraAdapter extends RecyclerView.Adapter<SumateraAdapter.ViewHo
             ivFoto = (ImageView) itemView.findViewById(R.id.imgView);
             tvJudul = (TextView) itemView.findViewById(R.id.textJudul);
             tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mISumateraAdapter.doClick(getAdapterPosition());
+                }
+            });
         }
     }
 }
