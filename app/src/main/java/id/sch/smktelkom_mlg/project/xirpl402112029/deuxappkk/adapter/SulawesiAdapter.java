@@ -1,5 +1,7 @@
 package id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.adapter;
 
+import android.content.Context;
+import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,8 +21,11 @@ import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Sulawesi;
 
 public class SulawesiAdapter extends RecyclerView.Adapter<SulawesiAdapter.ViewHolder> {
     ArrayList<Sulawesi> sulawesiList;
+    ISulawesiAdapter mISulawesiAdapter;
 
-    public SulawesiAdapter(ArrayList<Sulawesi> sulawesiList) {
+    public SulawesiAdapter(Context context, ArrayList<Sulawesi> sulawesiList) {
+
+        mISulawesiAdapter = (ISulawesiAdapter) context;
         this.sulawesiList = sulawesiList;
     }
 
@@ -36,7 +41,7 @@ public class SulawesiAdapter extends RecyclerView.Adapter<SulawesiAdapter.ViewHo
         Sulawesi sumatera = sulawesiList.get(position);
         holder.tvJudul.setText(sumatera.judul);
         holder.tvDeskripsi.setText(sumatera.deskripsi);
-        holder.ivFoto.setImageDrawable(sumatera.foto);
+        holder.ivFoto.setImageURI(Uri.parse(sumatera.foto));
     }
 
     @Override
@@ -44,6 +49,10 @@ public class SulawesiAdapter extends RecyclerView.Adapter<SulawesiAdapter.ViewHo
         if (sulawesiList != null)
             return sulawesiList.size();
         return 0;
+    }
+
+    public interface ISulawesiAdapter {
+        void doClick(int pos);
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder {
@@ -56,6 +65,12 @@ public class SulawesiAdapter extends RecyclerView.Adapter<SulawesiAdapter.ViewHo
             ivFoto = (ImageView) itemView.findViewById(R.id.imgView);
             tvJudul = (TextView) itemView.findViewById(R.id.textJudul);
             tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    mISulawesiAdapter.doClick(getAdapterPosition());
+                }
+            });
 
         }
     }

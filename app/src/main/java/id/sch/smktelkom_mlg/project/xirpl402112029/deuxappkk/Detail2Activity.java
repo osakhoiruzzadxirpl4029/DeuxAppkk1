@@ -8,24 +8,24 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Hotel;
+import id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.model.Sulawesi;
 
-public class DetaileActivity extends AppCompatActivity {
+public class Detail2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detaile);
+        setContentView(R.layout.activity_detail2);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        Hotel hotel = (Hotel) getIntent().getSerializableExtra(StartActivity.HOTEL);
-        setTitle(hotel.judul);
-        ImageView ivFoto = (ImageView) findViewById(R.id.imageFoto);
-        ivFoto.setImageURI(Uri.parse(hotel.foto));
+        Sulawesi sulawesi = (Sulawesi) getIntent().getSerializableExtra(SulawesiLayout.SULAWESI);
+        setTitle(sulawesi.judul);
+        ImageView ivFoto = (ImageView) findViewById(R.id.imageFoto2);
+        ivFoto.setImageURI(Uri.parse(sulawesi.foto));
         TextView tvDeskripsi = (TextView) findViewById(R.id.place_detail);
-        tvDeskripsi.setText(hotel.deskripsi + "\n\n" + hotel.detail);
+        tvDeskripsi.setText(sulawesi.deskripsi + "\n\n" + sulawesi.detail);
         TextView tvLokasi = (TextView) findViewById(R.id.place_location);
-        tvLokasi.setText(hotel.lokasi);
+        tvLokasi.setText(sulawesi.lokasi);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +33,7 @@ public class DetaileActivity extends AppCompatActivity {
                 onBackPressed();
             }
         });
+
 
     }
 }

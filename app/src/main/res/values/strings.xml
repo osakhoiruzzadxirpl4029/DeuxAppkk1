@@ -108,6 +108,7 @@
     <string name="slide_4_title">Easy GO!</string>
     <string name="slide_4_desc">Mari kita mulai!</string>
     <string name="title_activity_detaile">DetaileActivity</string>
+    <string name="title_activity_detail2">Detail2Activity</string>
 
 
 </resources>

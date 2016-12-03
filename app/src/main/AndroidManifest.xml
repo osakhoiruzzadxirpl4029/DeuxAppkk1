@@ -29,6 +29,10 @@
         <activity
             android:name=".DetaileActivity"
             android:label="@string/title_activity_detaile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Detail2Activity"
+            android:label="@string/title_activity_detail2"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
