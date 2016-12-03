@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sulawesi">
+        <item>Pulau Bunaken</item>
+        <item>Bukit Kasih Kaonang</item>
+        <item>Pulau Siladen</item>
+
+    </string-array>
+
+    <string-array name="sula_desc">
+        <item>Wisata yang satu inilah yang wajib dikunjungi. Kurang rasanya jika berada di Manado Sulawesi Utara tidak mengunjungi pulau bunaken ini.
+        </item>
+        <item>Suatu bukit yang terletak di Kab.Minahasa. Mempunyai pemandangan alam yang sangat indah</item>
+        <item>Merupakan salah satu pulau terindah di Indonesia</item>
+
+    </string-array>
+    <string-array name="sula_details">
+        <item>
+            Pulau bunaken mempunyai luas 8.08 km² dan terletak di teluk Manado. Pesona keindahan taman laut bunaken tidak diragukan lagi wisatawan banyak yang berkunjung ke pulau bunaken yang terpesona akan keindahan taman laut bunaken. Jika Anda dari Manado waktu yang dibutuhkan untuk mencapai pulau ini sekitar 30 menit dengan menggunakan kapal cepat. Taman laut Bunaken juga memiliki sekitar 20 titik penyelaman dengan kedalaman yang berbeda-beda hingga 1.344 meter. Dari 20 titik penyelaman tersebut 12 titik di antaranya ada di sekitar Pulau Bunaken.</item>
+        <item>
+           Bukit kasih berada di Kecamatan Kawangkoan kab. Minahasa. Bukit Kasih Kanonang merupakan tempat wisata yang melambangkan kerukunan antar umat bergama di Provinsi Sulawesi Utara. Disini akan ada semua tempat ibadah umat bergama. Jika dari Manado dibutuhkan sekitar 90 menit untuk mencapai tempat ini.</item>
+        <item>
+            Pulau Siladen terletak disebelah timur laut pulau bunaken dan memiliki luas 31.25 hektar. Pulau ini dikelilingi oleh pantai pasir putih dan di dalam lautnya banyak terumbu karang dengan biota laut yang bermacam-macam bentuk dan warna sehingga membentuk suatu tanaman laut yang sangat indah. Aktifitas yang bisa Anda lakukan di Pulau ini adalah berkeliling dengan naik perahu berkaca katamaran snorkling diving dan photografi underwater (foto bawah laut) dan pastinya berjemur di pantai dengan hamparan pasirnya yang putih.
+        </item>
+
+    </string-array>
+
+    <string-array name="sula_locations">
+        <item>Manado Sulawesi Utara</item>
+        <item>Kecamatan Kawangkonan Minahasa</item>
+        <item>Kepulauan Bunaken Manado Sulawesi Utara</item>
+
+    </string-array>
+    <array name="sula_picture">
+        <item>@drawable/m</item>
+        <item>@drawable/n</item>
+        <item>@drawable/o</item>
+
+    </array>
+
+</resources>
