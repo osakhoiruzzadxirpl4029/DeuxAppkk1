@@ -10,6 +10,7 @@ public class ButtonActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_button);
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
@@ -30,8 +31,18 @@ public class ButtonActivity extends AppCompatActivity {
                 startActivity(new Intent(ButtonActivity.this, SulawesiLayout.class));
             }
         });
-        /**
-         * Tambahan intent button sulawesi*/
+        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ButtonActivity.this, Sulawesi2Layout.class));
+            }
+        });
+        findViewById(R.id.button6).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ButtonActivity.this, PapuaLayout.class));
+            }
+        });
 
 
     }

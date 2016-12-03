@@ -37,7 +37,9 @@
         <activity
             android:name=".Detail3Activity"
             android:label="@string/title_activity_detail3"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Sulawesi2Layout" />
+        <activity android:name=".PapuaLayout"></activity>
     </application>
 
 </manifest>
