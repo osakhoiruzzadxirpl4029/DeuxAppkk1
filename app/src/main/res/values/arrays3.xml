@@ -4,14 +4,16 @@
         <item>Istana Maimun</item>
         <item>Masjid Raya Medan</item>
         <item>Danau Toba</item>
-
+        <item>Pulau Samosir</item>
+        <item>Gunung Sibayak</item>
     </string-array>
 
     <string-array name="tempat1_desc">
         <item>Istana Maimun yang saat ini sudah menjadi ikon kota Medan, Sumatera Utara adalah sebuah peninggalan Kerajaan Deli</item>
         <item>Masjid Raya Medan yang berlokasi di Medan, Sumatera Utara mulai dibangun pada tahun 1906 dengan gaya campuran antara Timur Tengah, Spanyol, dan India.</item>
         <item>Danau Toba adalah danau yang paling terkenal di Indonesia karena ukurannya yang besar dan keunikan yang berupa adanya sebuah pulau di tengah Danau Toba. </item>
-
+        <item>Pulau Samosir adalah pulau yang terletak ditengah Danau Toba</item>
+        <item>Gunung Sibayak merupakan salah satu gunung terbaik di Sumatera Utara</item>
     </string-array>
     <string-array name="tempat1_details">
         <item>
@@ -21,6 +23,10 @@
         <item>
             Danau Toba adalah danau yang paling terkenal di Indonesia karena ukurannya yang besar dan keunikan yang berupa adanya sebuah pulau di tengah Danau Toba. Dengan panjang sekitar 100 KM dan lebar sektiar 30 KM Danau Toba adalah danau vulkanik yang terbesar di Asia Tenggara. Danau Toba adalah tempat wisata di Sumatera Utara yang paling terkenal sehingga tidak perlu kuatir apabila anda ingin menginap di Danau Toba karena di sepanjang tepian Danau Toba banyak terdapat penginapan.
         </item>
+        <item>
+            Pulau Samosir adalah pulau yang terletak di tengah Danau Toba yang berada di ketinggian 1,000 meter di atas permukaan laut. Wisatawan dapat menyeberang ke Pulau Samosir dengan menggunakan kapal ferry, atau dengan menggunakan jalur darat. Di Pulau Samosir anda dapat menikmati pemandangan alam yang indah, menikmati wisata sejarah, wisata budaya dan kuliner Batak, sampai dengan mengunjungi permandian air panas.
+        </item>
+        <item>Gunung Sibayak adalah tempat wisata di Sumatera Utara yang cocok bagi anda yang menyukai petualangan. Pernah meletus pada tahun 1600, Gunung Sibayak sekarang ini lumayan populer di kalangan pendaki gunung karena keindahan dan tantangan yang ditawarkannya. Biasanya mereka berangkat sekitar jam 2 pagi, sehingga dapat menikmati matahari terbit pada saat sudah berada di atas Gunung Sibayak. Selain dapat melihat matahari terbit yang indah, dari puncak Gunung Sibayak kita juga dapat melihat kota Medan.</item>
 
     </string-array>
 
@@ -28,12 +34,16 @@
         <item>Jalan Brigadir Jenderal Katamso Kecamatan Medan Maimun, Medan</item>
         <item>Masjid Raya Medan yang berlokasi di Medan Sumatera Utara</item>
         <item>Toba Sumatera Utara</item>
+        <item>Toba Sumatera Utara</item>
+        <item>Medan, Sumatera Utara</item>
 
     </string-array>
     <array name="tempat1_picture">
         <item>@drawable/g</item>
         <item>@drawable/h</item>
         <item>@drawable/i</item>
+        <item>@drawable/r</item>
+        <item>@drawable/s</item>
 
     </array>
 </resources>

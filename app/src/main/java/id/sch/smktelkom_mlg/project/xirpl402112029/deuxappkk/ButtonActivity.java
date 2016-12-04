@@ -31,18 +31,6 @@ public class ButtonActivity extends AppCompatActivity {
                 startActivity(new Intent(ButtonActivity.this, SulawesiLayout.class));
             }
         });
-        findViewById(R.id.button5).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ButtonActivity.this, Sulawesi2Layout.class));
-            }
-        });
-        findViewById(R.id.button6).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(ButtonActivity.this, PapuaLayout.class));
-            }
-        });
 
 
     }

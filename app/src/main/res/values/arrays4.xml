@@ -4,14 +4,16 @@
         <item>Danau Sentarum</item>
         <item>Tanjung Puting</item>
         <item>Jembatan Tajuk</item>
-
+        <item>Pantai Kemala</item>
+        <item>Penangkaran Buaya Teritip</item>
     </string-array>
 
     <string-array name="tempat2_desc">
         <item>Ada keunikan yang istimewa yang bisa kamu temukan saat mengunjungi Danau Sentarum. Danau yang terletak di Kabupaten Kapuas Hulu Kalimantan Barat</item>
         <item>Gara-gara pembabatan hutan keberlangsungan hidup orangutan di Kalimantan makin terancam. Untungnya ada kawasan konservasi yang menjadi rumah bagi mereka di Taman Nasional Tanjung Puting </item>
         <item>Menjelajah Kalimantan belum lengkap kalau belum menjamahi hutan hujan tropisnya. Nah di Kabupaten Kutai Kartanegara ada kawasan ekowisata berupa hutan hujan tropis yang masih alami yaitu Bukit Bangkirai</item>
-
+        <item>Pantai Kemala merupakan salah satu tempat wisata favorit di Balikpapan.</item>
+        <item>Penangkaran Buaya Teritip lokasinya hanya 27 km saja dari jantung kota Balikpapan. Taman Buaya ini luasnya sekitar 5 ha dan mulai dibuka pada tahun 1991.</item>
     </string-array>
     <string-array name="tempat2_details">
         <item>
@@ -21,19 +23,24 @@
         <item>
             Jika kamu punya cukup nyali meniti Jembatan Tajuk bakal menjadi pengalaman yang mendebarkan. Jembatan ini berupa canopy bridge yang terletak di ketinggian dan menghubungkan pohon bangkirai yang satu dengan yang lain.
         </item>
-
+        <item>Lokasinya yang ada di pusat kota menjadikan pantai ini menjadi primadona wisatawan dan selalu ramai pada hari libur atau akhir pekan. Di pantai ini anda juga dapat menikmati aneka sajian kuliner yang menggoda, anda dapat menikmati sajian masakan seafood hingga kuliner Eropa. DI pantai ini juga ada wahana bermain berupana banana boats. Sebagian orang menikmati pantai ini dengan berkunjung saat malam untuk menikmati makan malam santai disekitar pantai. Banyak orang yang menyamakannya dengan Pantai Jimbaran di Bali. Hal itu ditambah dengan pemandangan sunset pada sore hari yang sangat menawan. Selain pemandangan yang indah, pengunjung juga dapat bermain flying fox, jet sky,  banana boat dll.</item>
+        <item>Penangkaran Buaya Teritip lokasinya hanya 27 km saja dari jantung kota Balikpapan. Taman Buaya ini luasnya sekitar 5 ha dan mulai dibuka pada tahun 1991. Adapun jumlah binatang yang terdapat di penangkaran tersebut terdapat sekitar 3.000 ekor dengan terdiri dari beberapa jenis di antaranya Buaya Air Tawar, Buaya Supit dan Buaya Muara. Sementara koleksi buaya yang terdapat di area penangkaran tersebut memang lebih banyak jika dibandingkan di Asam Kumbang, yakni salah satu objek wisata di Medan. Koleksi buaya di penangkaran ini jauh lebih banyak daripada yang di Asam kumbang, yang merupakan obyek menarik di kota Medan. Salah satu atraksi yang menarik di sini adalah memberi makan buaya dengan seekor ayam yang dapat anda beli dengan harga 10.000 rupiah per ekor.</item>
     </string-array>
 
     <string-array name="tempat2_locations">
         <item>Nanga Leboyan, Sentarum, Danau Sentarum, Kabupaten Kapuas Hulu, Kalimantan Barat 78765, Indonesia</item>
         <item>Kalimantan Selatan</item>
         <item>Cikaniki Research Centre Kampung Citalahab</item>
+        <item>Balikpapan, Kalimantan Timur</item>
+        <item>Balikpapan, Kalimantan Timur</item>
 
     </string-array>
     <array name="tempat2_picture">
         <item>@drawable/d</item>
         <item>@drawable/e</item>
         <item>@drawable/f</item>
+        <item>@drawable/t</item>
+        <item>@drawable/y</item>
 
     </array>
 </resources>

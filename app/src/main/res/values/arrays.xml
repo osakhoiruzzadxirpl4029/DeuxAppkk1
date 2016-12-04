@@ -18,6 +18,8 @@
         <item>Coban Rondo</item>
         <item>Ancol</item>
         <item>Pantai Selatan</item>
+        <item>Gunung Bromo</item>
+        <item>Karangkates</item>
 
     </string-array>
 
@@ -26,6 +28,8 @@
         </item>
         <item>Ancol adalah salah satu pantai berlokasi di Jakarta</item>
         <item>Pantai Selatan merupakan pantai keramat berlokasi di Jawa Tengah</item>
+        <item>Gunung Bromo merupakan salah satu wisata gunung terbaik di Indonesia</item>
+        <item>Waduk karangkates adalah salah satu peninggalan Belanda yang sekarang ini menjadi destinasi wajib Jawa Timur</item>
 
     </string-array>
     <string-array name="place_details">
@@ -40,20 +44,23 @@
             Sejak kota ini ada, Palabuhanratu telah menjadi kota tujuan wisata yang telah banyak mengundang perhatian masyarakat luas baik wisatawan lokal maupun wisatawan Asing. Tak heran memang karena demografis Palabuhanratu merupakan daerah pesisir pantai teluk yang memiliki hamparan pesisir pantai yang membuat nyaman para pengunjungnya. Hamparan pantainya terbentang luas dari Mulai Pantai Wisata Loji (Simpenan) Sampai dengan Pantai Karanghawu (Cisolok).
 
         </item>
-
+        <item>Gunung Bromo adalah salah satu gunung berapi aktif yang ada di Indonesia, tepatnya di Jawa Timur dan meliputi 4 kabupaten yaitu Kabupaten Probolinggo, Pasuruan, Lumajang, dan Kabupaten Malang. Sebagai gunung berapi yang masih aktif, Bromo jadi tujuan wisata terkenal di Jawa Timur dan hampir tidak pernah sepi setiap harinya. Statusnya yang masih aktif membuat Gunung Bromo jadi lebih menarik di mata wisatawan. Ketinggian Gunung Bromo 2.392 meter diatas permukaan laut dan memiliki bentuk tubuh bertautan diantara lembah dan ngarai dengan di kelilingi kaldera atau lautan pasir luas kurang lebih sekitar 5.300 hektar. </item>
+        <item>Bendungan Karangkates terletak di kecamatan Sumber Pucung, 40 Km arah selatan Kota Malang. Di bendungan ini, para pengunjung bisa menikmati keindahan danau buatan sembari berperahu ataupun memancing. Bendungan Karangkates atau biasa disebut Bendungan Sutami terletak di desa karangkates kecamatan Sumberpucung. Air dari bendungan ini berasal dari sungai Brantas dan telah dibangun sejak tahun 1975-1977 dan digunakan sebagai Pembangkit Listrik Tenaga Air.</item>
     </string-array>
 
     <string-array name="place_locations">
         <item>Malang, Jawa Timur</item>
         <item>Jakarta Pusat, DKI Jakarta</item>
         <item>Jawa Tengah</item>
-
+        <item>Jawa Timur</item>
+        <item>Blitar, Jawa Timur</item>
     </string-array>
     <array name="places_picture">
         <item>@drawable/a</item>
         <item>@drawable/b</item>
         <item>@drawable/c</item>
-
+        <item>@drawable/p</item>
+        <item>@drawable/q</item>
     </array>
 
 </resources>

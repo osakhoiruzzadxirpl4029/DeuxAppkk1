@@ -9,7 +9,6 @@
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#Ef66Ed"
         android:orientation="vertical"
         android:weightSum="1"
         tools:context="id.sch.smktelkom_mlg.project.xirpl402112029.deuxappkk.ButtonActivity">
@@ -47,27 +46,7 @@
             android:text="Kalimantan"
             android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="match_parent"
-            android:layout_height="184dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/lsr"
-            android:padding="8dp"
-            android:text="Sulawesi"
-            android:textColor="#FFFFFF" />
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="match_parent"
-            android:layout_height="184dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/bira"
-            android:padding="8dp"
-            android:text="Papua"
-            android:textColor="#FFFFFF" />
 
     </LinearLayout>
 
