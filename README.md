@@ -16,6 +16,8 @@ Sebuah aplikasi untuk mengetahui tempat-tempat wisata yang ada di indonesia
 ## Link Video Youtube
 [YOUTUBE](https://youtu.be/CZ3suBV32E0)
 
+## Link Aplikasi
+[DEUXAPP](https://drive.google.com/drive/u/1/folders/0B9NsAJtQet49dWNPSW5DR21NQlE)
 ## About Us
 
 #### Ainnaya Nur Akasah
