@@ -8,11 +8,13 @@ Sebuah aplikasi untuk mengetahui tempat-tempat wisata yang ada di indonesia
 - Menampilkan lokasi dan deskripsi secara mendetail
 
 ## Screenshot Aplikasi
-<img src="https://cloud.githubusercontent.com/assets/22129286/20513165/c21df418-b0b6-11e6-9619-04906e40e5ab.png" width="290" height="515" />|<img src="https://cloud.githubusercontent.com/assets/22129286/20513162/c21ba0a0-b0b6-11e6-9da0-ed6a40373282.png" width="290" height="515" />
+<img src="1.jpg" width="290" height="515"/>|<img src="2.jpg" width="290" height="515"/><br>
+<img src="3.jpg" width="290" height="515"/>|<img src="4.jpg" width="290" height="515"/><br>
+<img src="5.jpg" width="290" height="515"/>|<img src="6.jpg" width="290" height="515"/><br>
+<img src="7.jpg" width="290" height="515"/>
 
-<img src="https://cloud.githubusercontent.com/assets/22129286/20513161/c21a10aa-b0b6-11e6-8ad7-901ef3c6de3d.png" width="290" height="515" />|<img src="https://cloud.githubusercontent.com/assets/22129286/20513163/c21be858-b0b6-11e6-9f46-e76c74eebd38.png" width="290" height="515" />
-
-<img src="https://cloud.githubusercontent.com/assets/22129286/20513164/c21d3820-b0b6-11e6-9cff-776b88d4a577.png" width="290" height="515"/>|<img src="https://cloud.githubusercontent.com/assets/22129286/20513166/c220c1fc-b0b6-11e6-8f81-4ae5523a9c18.png" width="290" height="515" />
+## Link Video Youtube
+[YOUTUBE](https://youtu.be/CZ3suBV32E0)
 
 ## About Us
 
